@@ -1,0 +1,48 @@
+DCA Parcial 2 – Análisis
+
+Requerimientos funcionales
+
+Indicador: Crear personajes
+Resumen: Crear personajes indefinidamente al hundir un botón 
+Entrada: clic botón
+Salida: Personaje creado agregado a lista dinánimca
+
+Indicador: nuevo personaje a lista dinámica
+Resumen: agregar nuevo personaje a lista dinámica 
+Entrada: agregar personaje a lista
+Salida: personaje agregado 
+
+Indicador: Hilo movimiento personajes 
+Resumen: Cada personaje debe moverse como un proceso independiente
+Entrada: Ejecutar hilo por personaje
+Salida: Personaje moviendose con un proceso independiente
+
+Indicador: asignar de numero de la suerte
+Resumen: asignar de manera aleatoria un numero a la suerte a cada uno de los personajes
+Entrada: random 1-..., set numero de la suerte
+Salida: personaje con parametro numero de la suerte 
+
+Indicador: validar clic en personaje
+Resumen: deberá poderse validar un clic en personajes
+Entrada: mouseX, mouseY, posiciones X y Y del personaje
+salida: true/false
+
+Indicador: agregar personaje a lista fija
+Resumen: al darse clic sobre uno de los personajes en movimiento, este pasará a una lista fija situada en la parte izquierda del lienzo
+Entrada: agregar personaje a lista fija
+Salida: personaje agregado a lista fija
+
+Indicador: cupo lista fija 
+Resumen: la lista fija a la que se agregarán los personajes al darles clic, solo podrá tener 4 espacios
+Entrada: número de posiciones
+Salida: personaje agregado/ no agregado
+
+Indicador: excepcion
+Resumen: si se intenta agregar un personaje a la lista fija ya llena, deberá lanzarse una excepción propia
+Entrada: agregar personaje a lista fija (ya llena)
+Salida: excepcion
+
+Indicador: ordenar elementos en la lista fija
+Resumen: ordenar los elementos en la lista fija de forma natural (por edad) y parcial (por numero de la suerte)
+Entrada: ordenar 
+Salida: personajes ordenados según criterio
