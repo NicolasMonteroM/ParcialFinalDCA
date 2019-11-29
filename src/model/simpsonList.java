@@ -21,8 +21,5 @@ public class simpsonList {
 	public void setListaOriginal(LinkedList<simpson> listaOriginal) {
 		this.listaOriginal = listaOriginal;
 	}
-	
-	
-	
 
 }
